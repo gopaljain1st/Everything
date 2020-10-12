@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:padding="20dp"
+    android:background="#fff"
+    android:id="@+id/bottom_sheet">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to your meals"
+        android:textSize="22dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="12dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:text="Add-ons will be delivered along with your meals"
+        android:textSize="15dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        >
+    </TextView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Upto 35% off on Add-ons"
+    android:textSize="18dp"
+    android:textColor="#000080"
+    android:layout_marginTop="15dp"
+    android:background="#DCDCDC"
+    android:textStyle="bold"
+    android:layout_marginHorizontal="5dp"
+    android:paddingLeft="10dp"
+    > </TextView>
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/itemimage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/thali">
+        </ImageView>
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="30dp"
+            android:text="Indian Thali"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#000">
+        </TextView>
+        <TextView
+            android:id="@+id/packagename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="175dp"
+            android:text="Rs 43 each "
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/weekrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="175dp"
+            android:text="Rs 215/week "
+            android:textSize="17dp"
+            >
+        </TextView>
+        <Button
+            android:id="@+id/addbtn"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="175dp"
+            android:background="@drawable/border"
+            android:text="ADD"
+            android:layout_marginTop="125dp"
+            android:textColor="#FF1493"
+            android:textStyle="bold">
+
+        </Button>
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="20dp"
+        android:background="#808080"
+        android:layout_marginHorizontal="12dp"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rerere"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+<Button
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="5dp"
+    android:paddingHorizontal="15dp"
+    android:text="1 item .Pay Rs 486"
+    android:background="#FF1493"
+    android:textSize="15dp"
+    android:textColor="#fff"
+    android:textStyle="bold"
+    android:id="@+id/bottomAddToCart"
+    >
+</Button>
+    </LinearLayout>
+</LinearLayout>

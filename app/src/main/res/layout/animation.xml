@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_weight="1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/goallogo"
+        android:id="@+id/img"
+        />
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_weight="1"
+        android:text="Translate"
+        android:id="@+id/translate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_weight="1"
+        android:text="Rotate"
+        android:id="@+id/rotate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:text="Scale"
+            android:id="@+id/scale"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_weight="1"
+            android:text="Alpha"
+            android:id="@+id/alpha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:text="Mixture"
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

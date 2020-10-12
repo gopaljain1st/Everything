@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:src="@drawable/header"
+    android:scaleType="fitCenter"
+    >
+</ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Why Packages "
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        >
+    </TextView>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+    </androidx.viewpager.widget.ViewPager>
+    <View
+        android:layout_marginTop="20dp"
+        android:background="#808080"
+        android:layout_marginHorizontal="12dp"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offers applied"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textSize="22dp"
+        android:layout_marginTop="15dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flat 35% Off on Monthly Subscriptions"
+        android:textSize="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How it works"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textSize="22dp"
+        android:layout_marginTop="15dp"
+        >
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_add_location_black_24dp">
+        </ImageView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.80"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:text="Meals are delivered every day at the \nchosen address and time"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="20dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/change">
+        </ImageView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.80"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:text="Full flexibility to change meals,\n delivery address, time and even cancel\n meals for the day."
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="20dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/money">
+        </ImageView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.80"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:text="Get a full refund for any meals you\n cancel.Refunds are credited to your \naccount at the end of the cycle or
+adjusted against your next billing cycle."
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="20dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/autorenew">
+        </ImageView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.80"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:text="You can auto-renew subscriptions\n and get the best price per meal.\nSubscription renew on the same day \n of every week/month from the start date."
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="20dp">
+
+        </TextView>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="20dp"
+        android:background="#808080"
+        android:layout_marginHorizontal="12dp"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item List"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        >
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/CategoryAddbtn"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:text="Add On"
+        android:layout_marginTop="15dp"
+        android:textColor="#FF1493"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+</LinearLayout>
+</LinearLayout>
+    </ScrollView>

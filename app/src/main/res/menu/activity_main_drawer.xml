@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/wallet"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/ic_subscriptions_black_24dp"
+            android:title="Subscription" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share &amp; Earn" />
+        <item
+            android:id="@+id/nav_referral_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Referral History" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Rate us" />
+        <item
+            android:id="@+id/logoutDrawer"
+            android:icon="@drawable/logout"
+            android:title="logout"/>
+    </group>
+</menu>

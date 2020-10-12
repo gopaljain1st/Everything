@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Nutritang</string>
+
+
+
+
+
+    <string name="facebook_app_id">261737318348409</string>
+    <string name="fb_login_protocol_scheme">fb261737318348409</string>
+
+
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Gopal Jain</string>
+    <string name="nav_header_subtitle">jaingopal09@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_new_home">NewHomeActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="strike_line"><strike>120</strike></string>
+
+</resources>

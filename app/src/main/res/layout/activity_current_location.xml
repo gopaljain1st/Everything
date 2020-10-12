@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="150dp"
+        tools:context=".MapsActivity"
+        />
+    <LinearLayout
+       android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="0.12"
+                android:layout_height="50dp"
+                android:src="@drawable/location"
+                android:layout_gravity="center"
+                />
+                <TextView
+                    android:id="@+id/userLocation"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.88"
+                    android:padding="3dp"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="start|center"
+                    android:layout_height="50dp"
+                    android:text="Current Loction" />
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Update Location"
+            android:textColor="#FFF"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/border2"
+            android:id="@+id/updateLocation"
+            />
+    </LinearLayout>
+</RelativeLayout>

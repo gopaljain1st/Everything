@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/itemimage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/thali">
+    </ImageView>
+    <TextView
+        android:id="@+id/itemname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="30dp"
+        android:text="Indian Thali"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#000">
+    </TextView>
+    <TextView
+        android:id="@+id/packagename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="175dp"
+        android:text="Package: Silver"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="175dp"
+        android:background="@drawable/border"
+        android:text="ADD"
+        android:layout_marginTop="110dp"
+        android:textColor="#FF1493"
+        android:textStyle="bold">
+
+    </Button>
+</RelativeLayout>
+</LinearLayout>

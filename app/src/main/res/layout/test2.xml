@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/logopng"
+        />
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="0.18"
+                android:layout_height="50dp"
+                android:src="@drawable/mobile"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:backgroundTint="#000000"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <EditText
+                    android:id="@+id/userMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textColor="#000000"
+                    android:foregroundTint="#000000"
+                    android:inputType="phone"
+                    android:hint="Mobile No" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Referral Code?"
+                android:layout_marginLeft="20dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="CorPorate User?"
+                android:gravity="right"
+                android:layout_marginRight="30dp"
+                />
+        </LinearLayout>
+        <Button
+            android:padding="10dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/border3"
+            android:text="Sign Up"
+            android:id="@+id/mobileSignUp"
+            android:textColor="#000"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        >
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:drawableLeft="@drawable/googlebutton"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:drawablePadding="30dp"
+            android:gravity="center_vertical|fill_horizontal"
+            android:text="Sign in with google"
+            android:background="@drawable/border3"
+            android:textColor="#000000"
+            android:id="@+id/signInWithGoogle"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:drawablePadding="30dp"
+            android:gravity="center_vertical|fill_horizontal"
+            android:id="@+id/signInWithFacebook"
+            android:drawableLeft="@drawable/facebookbutton"
+            android:text="Sign in with facebook"
+            android:background="@drawable/border3"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+</LinearLayout>

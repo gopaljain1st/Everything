@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Course"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/testRecylerView"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/breakfastRecyclerview"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/transparent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Special 60% Off"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/breakfastRecyclerviewSpecialOffer"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/transparent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add On 20% Off"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/breakfastRecyclerviewAddon"
+        />
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border4"
+        android:text="Add On"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+</LinearLayout>
+</ScrollView>
